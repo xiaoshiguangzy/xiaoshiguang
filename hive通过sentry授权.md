@@ -3,7 +3,7 @@
 - [hive通过Apache-Sentry授权](#hive通过Apache-Sentry授权)
 - [一、Sentry 授权特点](#一sentry-授权特点)
 - [二、CDH Sentry 安装及配置](#二cdh-sentry-安装及配置)
-  - [1、配置 Mysql 数据库](# 配置-mysql-数据库)
+  - [1、配置 Mysql 数据库](#配置-mysql-数据库)
   - [2、CDH中添加Sentry组件，gateway 选择全部节点。server选择主节点。](#2cdh中添加sentry组件gateway-选择全部节点server选择主节点)
   - [3、hive 配置中启用Sentry服务，关闭Hive的用户模拟功能，集群未启用安全认证环境下，需要配置以下参数](#3hive-配置中启用sentry服务关闭hive的用户模拟功能集群未启用安全认证环境下需要配置以下参数)
   - [4、impala配置中启动sentry](#4impala配置中启动sentry)

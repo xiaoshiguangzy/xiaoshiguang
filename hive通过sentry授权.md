@@ -20,7 +20,7 @@
 
 #### 二、CDH Sentry 安装及配置
 
-- ###### 1、配置 Mysql 数据库
+- ##### 1、配置 Mysql 数据库
 
 ```mysql
 create database sentry  character set utf8;
@@ -30,7 +30,7 @@ grant all on sentry.* to 'sentry'@'%' identified by 'sentry';
 flush privileges;
 ```
 
-- ###### 2、CDH中添加Sentry组件，gateway 选择全部节点。server选择主节点。
+- ##### 2、CDH中添加Sentry组件，gateway 选择全部节点。server选择主节点。
 
 安装完成后
 如果缺少mysql driver
@@ -40,7 +40,7 @@ flush privileges;
 cp /opt/cm-5.14.1/share/cmf/lib/mysql-connector-java-5.1.46-bin.jar /opt/cloudera/parcels/CDH/lib/sentry/lib
 ```
 
-- ###### 3、hive 配置中启用Sentry服务，关闭Hive的用户模拟功能，集群未启用安全认证环境下，需要配置以下参数
+- ##### 3、hive 配置中启用Sentry服务，关闭Hive的用户模拟功能，集群未启用安全认证环境下，需要配置以下参数
 
 在hive 组件配置中进行如下更改：
 
@@ -86,24 +86,24 @@ sentry-site.xml 的 Hive 服务高级配置代码段（安全阀）：
 
 ![hive-4](./images/hive-4.png)
 
-- ###### 4、impala配置中启动sentry
+- ##### 4、impala配置中启动sentry
 
 在impala配置中更改
 
 ![hive-5](./images/hive-5.png)
 
-- ###### 5、Hue配置与Sentry集成
+- ##### 5、Hue配置与Sentry集成
 
 在hue 配置中更改
 
 ![hive-6](./images/hive-6.png)
 
-- ###### 6、HDFS启用ACLS和Sentry权限同步
+- ##### 6、HDFS启用ACLS和Sentry权限同步
 
 在HDFS 配置中更改
 
 ![hive-7](./images/hive-7.png)
 
-- ###### 7、回到Cloudera Manager主页，部署客户端配置并重启相关服务
+- ##### 7、回到Cloudera Manager主页，部署客户端配置并重启相关服务
 
 #### 三、Hive授权操作

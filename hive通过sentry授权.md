@@ -1,7 +1,7 @@
 ## hive通过Apache-Sentry授权
 
 - [hive通过Apache-Sentry授权](#hive通过Apache-Sentry授权)
-  - [一、Sentry 授权特点](#一、Sentry 授权特点)
+  - [一、Sentry 授权特点](####一、Sentry 授权特点)
   - [二、CDH Sentry 安装及配置](#二、CDH Sentry 安装及配置)
     - [1、配置 Mysql 数据库](#1、配置 Mysql 数据库)
     - [2、CDH中添加Sentry组件，gateway 选择全部节点。server选择主节点。](#2、CDH中添加Sentry组件，gateway 选择全部节点。server选择主节点。)

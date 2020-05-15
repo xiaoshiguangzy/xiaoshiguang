@@ -1,16 +1,16 @@
 ## hive通过Apache-Sentry授权
 
 - [hive通过Apache-Sentry授权](#hive通过Apache-Sentry授权)
-  - [一、Sentry 授权特点](####一、Sentry 授权特点)
-  - [二、CDH Sentry 安装及配置](#二、CDH Sentry 安装及配置)
-    - [1、配置 Mysql 数据库](#1、配置 Mysql 数据库)
-    - [2、CDH中添加Sentry组件，gateway 选择全部节点。server选择主节点。](#2、CDH中添加Sentry组件，gateway 选择全部节点。server选择主节点。)
-    - [3、hive 配置中启用Sentry服务，关闭Hive的用户模拟功能，集群未启用安全认证环境下，需要配置以下参数](#3、hive 配置中启用Sentry服务，关闭Hive的用户模拟功能，集群未启用安全认证环境下，需要配置以下参数)
-    - [4、impala配置中启动sentry](#4、impala配置中启动sentry)
-    - [5、Hue配置与Sentry集成](#5、Hue配置与Sentry集成)
-    - [6、HDFS启用ACLS和Sentry权限同步](#6、HDFS启用ACLS和Sentry权限同步)
-    - [7、回到Cloudera Manager主页，部署客户端配置并重启相关服务](#7、回到Cloudera Manager主页，部署客户端配置并重启相关服务)
-  - [三、Hive授权操作](#三、Hive授权操作)
+  - [一、Sentry 授权特点](####一Sentry授权特点)
+  - [二、CDH Sentry 安装及配置](#二CDH Sentry安装及配置)
+    - [1、配置 Mysql 数据库](#1配置Mysql数据库)
+    - [2、CDH中添加Sentry组件，gateway 选择全部节点。server选择主节点。](#2CDH中添加Sentry组件gateway 选择全部节点server选择主节点)
+    - [3、hive 配置中启用Sentry服务，关闭Hive的用户模拟功能，集群未启用安全认证环境下，需要配置以下参数](#3hive配置中启用Sentry服务关闭Hive的用户模拟功能集群未启用安全认证环境下需要配置以下参数)
+    - [4、impala配置中启动sentry](#4impala配置中启动sentry)
+    - [5、Hue配置与Sentry集成](#5Hue配置与Sentry集成)
+    - [6、HDFS启用ACLS和Sentry权限同步](#6HDFS启用ACLS和Sentry权限同步)
+    - [7、回到Cloudera Manager主页，部署客户端配置并重启相关服务](#7回到ClouderaManager主页部署客户端配置并重启相关服务)
+  - [三、Hive授权操作](#三Hive授权操作)
 
 #### 一、Sentry 授权特点
 

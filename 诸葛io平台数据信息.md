@@ -754,11 +754,8 @@ kafka目录：/data/localization/kafka
 
 
 
-#### 2、hive
+#### 2、hive与kudu
 
 详细描述见文件：[诸葛io平台impala数据信息.md](./诸葛io平台impala数据信息.md)
 
-#### 3、kudu
-
-详细描述见文件：[诸葛io平台impala数据信息.md](./诸葛io平台impala数据信息.md)
 
